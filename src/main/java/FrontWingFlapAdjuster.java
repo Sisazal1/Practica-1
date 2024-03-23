@@ -6,7 +6,7 @@ public class FrontWingFlapAdjuster extends PitCrewMember {
 
     @Override
     public void performTask(int carNumber) {
-        super.performTask(carNumber);  // Call base class method
+        super.performTask(carNumber); 
         System.out.println(" (Adjusting the front wing flaps)");
     }
 }
