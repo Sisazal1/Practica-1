@@ -1,6 +1,6 @@
 public class TyreOn extends PitCrewMember {
 
-    private int wheel;  // Wheel position (1-4)
+    private int wheel; 
 
     public TyreOn(String name, int wheel) {
         super(name, "Tyre On (Wheel " + wheel + ")");
@@ -9,7 +9,7 @@ public class TyreOn extends PitCrewMember {
 
     @Override
     public void performTask(int carNumber) {
-        super.performTask(carNumber);  // Call base class method
+        super.performTask(carNumber);  
         System.out.println(" (Fitting tyre on wheel " + wheel + ")");
     }
 }
