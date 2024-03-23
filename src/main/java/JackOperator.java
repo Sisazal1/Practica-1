@@ -1,6 +1,6 @@
 public class JackOperator extends PitCrewMember {
 
-    private String jackPosition;  // "Front" or "Rear"
+    private String jackPosition;  
 
     public JackOperator(String name, String jackPosition) {
         super(name, "Jack Operator (" + jackPosition + " Jack)");
@@ -9,7 +9,7 @@ public class JackOperator extends PitCrewMember {
 
     @Override
     public void performTask(int carNumber) {
-        super.performTask(carNumber);  // Call base class method
+        super.performTask(carNumber);  
         System.out.println(" (Operating the " + jackPosition + " jack)");
     }
 }
