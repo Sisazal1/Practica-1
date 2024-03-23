@@ -6,7 +6,7 @@ public class Steadier extends PitCrewMember {
 
     @Override
     public void performTask(int carNumber) {
-        super.performTask(carNumber);  // Call base class method
+        super.performTask(carNumber);  
         System.out.println(" (Operating the steadier/side jack)");
     }
 }
