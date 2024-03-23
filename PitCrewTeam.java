@@ -30,7 +30,7 @@ public class PitCrewTeam {
   }
 
   public void assignDriverCrews() {
-    assignDriverCrew(); // Call the private method to avoid direct member manipulation
+    assignDriverCrew();
   }
 
   public ArrayList<PitCrewMember> getDriverACrew() {
